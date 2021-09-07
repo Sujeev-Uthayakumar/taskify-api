@@ -87,4 +87,6 @@ router.delete("/users/me", auth, async (req, res) => {
   }
 });
 
+router.post("/users/me.avatar");
+
 module.exports = router;
